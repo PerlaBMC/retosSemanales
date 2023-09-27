@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<link rel="stylesheet" href="/css/style.css">
+<body>
+    <div>
+        <form action="/action_page.php">
+          <label for="fname">Nombre</label>
+          <input type="text" id="inputNombre" name="nombre" placeholder="Nombre"> <br> <br>
+      
+          <label for="lname">Email</label>
+          <input type="email" id="inputEmail" name="email" placeholder="Correo electrónico">
+
+          <label for="lname">Teléfono</label>
+          <input type="number" id="inputTelefono" name="tel" placeholder="Teléfono"> <br> <br>
+
+          <label for="lname">Comentarios</label>
+          <input type="text" id="inputComentarios" name="comentarios" placeholder="Compártenos tus cometarios">
+      
+      
+      
+          <label for="country">Tu tienda</label>
+          <select id="inputStore" name="country">
+            <option value="1">La 1</option>
+            <option value="2">La 2</option>
+            <option value="3">La 3</option>
+          </select>
+        
+          <input type="button" onclick="postUSer()" >
+        </form>
+      </div>
+    <script src="./js/index.js"></script>
+</body>
+</html>                                                                                                                                                                                                 
